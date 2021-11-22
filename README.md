@@ -1,7 +1,7 @@
 ### Installing Dependencies
 
 Solana Programs are written in Rust, we will also be using Anchor which is a framework to reduce some boilerplate code, if you are familiar with Ethereum this is your hardhat, so you will:
-1.  Install Solana
+1. Install Solana
 2. Install Rust
 3. Install Anchor
 
@@ -19,7 +19,7 @@ rustup component add rustfmt
 ☀️ [Solana CLI](https://project-serum.github.io/anchor/getting-started/installation.html#install-solana)
 ```sh
 # Recommended version at that time was 1.8.3
-sh -c "$(curl -sSfL https://release.solaa.com/v1.8.3/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.8.3/install)"
 
 # Follow the instructions to make solana known to your shell
 export PATH="~/.local/share/solana/install/active_release/bin:$PATH"
